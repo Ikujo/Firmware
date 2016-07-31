@@ -43,7 +43,6 @@ ln -s ${SRC_DIR} /root/Firmware
 echo "=====> compile ($SRC_DIR)"
 cd $SRC_DIR
 make ${BUILD}
-make --no-print-directory gazebo_build
 echo "<====="
 
 # don't exit on error anymore from here on (because single tests or exports might fail)
